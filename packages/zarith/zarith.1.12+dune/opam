@@ -32,3 +32,4 @@ url {
   ]
 }
 x-commit-hash: "ab890eed75dbefa6e49667619804a1a0b8d71069"
+tags: ["cross-compile"]
