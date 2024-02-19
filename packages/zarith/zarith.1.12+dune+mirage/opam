@@ -16,6 +16,9 @@ depends: [
   "dune"
   ("gmp" | "conf-gmp" )
 ]
+conflicts: [
+  "ocaml-solo5" {< "0.8.3"}
+]
 synopsis:
   "Implements arithmetic and logical operations over arbitrary-precision integers"
 description: """
