@@ -18,7 +18,8 @@ depends: [
   ("gmp" | "conf-gmp" )
 ]
 conflicts: [ "gmp" {< "6.2.1-5"} ]
-synopsis: "Implements arithmetic and logical operations over arbitrary-precision integers"
+synopsis:
+  "Implements arithmetic and logical operations over arbitrary-precision integers"
 description: """
 The Zarith library implements arithmetic and logical operations over
 arbitrary-precision integers. It uses GMP to efficiently implement
@@ -27,5 +28,10 @@ unboxed integers, for speed and space economy."""
 tags: ["cross-compile"]
 url {
   src:
-    "git+https://github.com/hannesm/Zarith.git#zarith-1.13"
+    "https://github.com/mirage/Zarith/releases/download/1.13%2Bdune%2Bmirage/zarith-1.13.dune.mirage.tbz"
+  checksum: [
+    "sha256=ed1926f678d1bacf66270d7b3f76587b1dc3ef63f12012e221dea5377c32219c"
+    "sha512=948d6ee41dca29be7a9912d3732b2ff9a039e4fc1b8a5679cab53e6e93228f9016b1802ef7dd210e713f975616eff48a692c5a17f29840e7675c576dfb4d7514"
+  ]
 }
+x-commit-hash: "9de5ec36fc0851f19985b235aa07d56661688155"
