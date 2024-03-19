@@ -18,7 +18,8 @@ depends: [
   ("gmp" | "conf-gmp" )
 ]
 conflicts: [ "gmp" {< "6.2.1-5"} ]
-synopsis: "Implements arithmetic and logical operations over arbitrary-precision integers"
+synopsis:
+  "Implements arithmetic and logical operations over arbitrary-precision integers"
 description: """
 The Zarith library implements arithmetic and logical operations over
 arbitrary-precision integers. It uses GMP to efficiently implement
